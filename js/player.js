@@ -32,13 +32,14 @@ class Album {
 }
 
 var jbox = new Jukebox();
-const album1 = new Album('Operation Ivy', 'Energy');
-const album2 = new Album('Blink 182', 'Dude Ranch');
-const album3 = new Album('New Found Glory', 'Sticks and Stones');
+const album1 = new Album('Love is gone', 'Moon Sae Lee');
+const album2 = new Album('last Christmas', 'Wham');
+const album3 = new Album('Beauty and the Beast', 'Disney');
 
 jbox.addAlbum(album1);
 jbox.addAlbum(album2);
 jbox.addAlbum(album3);
+
 
 album1.play();
 album2.play();
